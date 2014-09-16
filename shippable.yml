@@ -17,4 +17,3 @@ script:
   - nosetests some-test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - which python && coverage run --branch some-test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml some-test.py
-reset_minion: true
