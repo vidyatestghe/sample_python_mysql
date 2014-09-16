@@ -7,7 +7,7 @@ class test_db(unittest.TestCase):
     def testRowCount(self):
         mql = Mysql()
         mql.populate()
-        self.failIf(mql.rowcount() != 4)
+        self.failIf(mql.rowcount() != 5)
 
 
 def main():
