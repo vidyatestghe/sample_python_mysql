@@ -24,3 +24,4 @@ notifications:
 #cache: true
 after_script:
   - cp README.md ./shippable
+archive: true
