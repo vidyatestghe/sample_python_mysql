@@ -1,4 +1,4 @@
-language: python
+language: pythonoo
 
 python:
   - 2.7
