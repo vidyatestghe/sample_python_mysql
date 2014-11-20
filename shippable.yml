@@ -1,5 +1,6 @@
 language: pythonoo
 
+
 python:
   - 2.7
   - 2.6
@@ -19,9 +20,11 @@ script:
   - which python && coverage run --branch some-test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml some-test.py
 
+
 notifications:
   email: false
 #cache: true
 after_script:
   - cp README.md ./shippable
+
 archive: true
