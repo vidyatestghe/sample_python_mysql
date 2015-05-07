@@ -16,7 +16,7 @@ class Mysql():
             cur.execute("INSERT INTO messages(message) VALUES('this is test message 2');")
             cur.execute("INSERT INTO messages(message) VALUES('this is test message 3');")
             cur.execute("INSERT INTO messages(message) VALUES('this is test message 4');")
-            cur.execute("INSERT INTO messages(message) VALUES('this is test message 5');")
+            #cur.execute("INSERT INTO messages(message) VALUES('this is test message 5');")
             con.commit()
         except mdb.Error, e:
             print "Error %d: %s" % (e.args[0],e.args[1])
