@@ -2,7 +2,6 @@ language: python
 
 #build_image: shippable/minv2:beta 
 
-
 python:
   - 2.7
   - 2.6
