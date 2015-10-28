@@ -14,6 +14,7 @@ before_script:
   - mkdir -p shippable/codecoverage
   - mysql -e 'drop database if exists test;'
   - mysql -e "create database if not exists \`some-test\` ;"
+  - python --version
 
 script:
   - nosetests some-test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
