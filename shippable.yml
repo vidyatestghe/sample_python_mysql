@@ -18,3 +18,5 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 build_image: drydock/u14pytpls:tip
+
+archive: true
