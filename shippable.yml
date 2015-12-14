@@ -4,7 +4,7 @@ build_image: drydock/u12pytpls:tip
 
 python:
   - 2.7
- # - 2.6
+  - 2.6
 
 install:
   - pip install -r requirements.txt
