@@ -2,6 +2,7 @@ language: python
 
 build_image: drydock/u12pytall:tip
 
+
 python:
   - 2.7
   - 2.6
@@ -26,7 +27,7 @@ services:
 
 notifications:
   email: false
-#cache: true
+
 after_script:
   - cp README.md ./shippable
 
